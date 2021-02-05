@@ -1,0 +1,62 @@
+--SELECT * FROM artist
+
+--SELECT first_name, last_name, country
+--FROM employee;
+
+-- SELECT name, composer, milliseconds
+-- FROM track
+-- WHERE milliseconds > 299000;
+
+-- SELECT count(*)
+-- FROM track
+-- WHERE milliseconds > 299000;
+
+-- SELECT AVG(milliseconds) FROM track;
+
+-- SELECT count(invoice_id) FROM invoice 
+-- WHERE billing_country = 'USA';
+
+-- SELECT first_name FROM customer WHERE first_name LIKE '%a%';
+
+-- SELECT name, milliseconds 
+-- FROM track 
+-- ORDER BY -milliseconds DESC
+-- LIMIT 10;
+
+-- SELECT * FROM customer
+-- WHERE state IN('CA', 'WA');
+
+-- INSERT INTO artist (name) 
+-- VALUES ('Slayer');
+
+-- SELECT * FROM artist
+-- WHERE name = 'Slayer';
+
+-- INSERT INTO customer 
+-- ( 
+-- state, 
+-- country, 
+-- postal_code, 
+-- phone, 
+-- email, 
+-- first_name, 
+-- last_name, 
+-- address, 
+-- city 
+-- ) 
+-- VALUES 
+-- ( 
+-- 'CA', 
+-- 'USA', 
+-- '92057', 
+-- '555-555-5555', 
+-- '1234@aol.com', 
+-- 'Drew', 
+-- 'W', 
+-- '12345 Evergreen Terrace', 
+-- 'Oceanside' 
+-- ); 
+
+-- SELECT * FROM customer; 
+
+SELECT * FROM playlist WHERE name LIKE 'Classical%';
